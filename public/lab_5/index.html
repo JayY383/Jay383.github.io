@@ -81,7 +81,12 @@
             document.querySelector('.flex-outer').style.margin = "0 auto";
             document.getElementById('headertag').innerHTML = "Lab 5 for Jaylin Young";
             document.querySelector('.checkbox-list-label').textContent = 'fruits';
-            
+            ar fruits = [];
+            var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
+
+            for (var i = 0; i < checkboxes.length; i++) {
+                array.push(checkboxes[i].value)
+            }
 
             
             
