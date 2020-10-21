@@ -1,5 +1,7 @@
 // You may wish to find an effective randomizer function on MDN.
 
+const { default: countries } = require("./countries");
+
 
 function range(int) {
   const arr = [];
@@ -31,11 +33,22 @@ document.body.addEventListener('submit', async (e) => {
     .then((fromServer) => fromServer.json())
     .then((fromServer) => {
       // You're going to do your lab work in here. Replace this comment.
+      const lis = document.createElement('ul');
+      const liss = document.createElement('li');
+      
+      
+      
+      
+      
       /*
       1. How to fix the spacing and padding problem
       2.  How to remove the hello world response
       3.  How to connect/call the countries to the script page
+
+      create an array of 10 elements, then loop throught them and then sort and ....
+      
       */
+
 
 
 

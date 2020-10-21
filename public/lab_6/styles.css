@@ -10,7 +10,8 @@ body {
 
 .container {
   min-height: 100%;
-  margin-left: 525.483px;
+  
+
 }
 
 .header {
@@ -27,6 +28,9 @@ body {
 }
 
 /* Enter YOUR lab styles after this line */
+
+
+
 .flex-outer li,
 .flex-inner {
   display: flex;
@@ -76,5 +80,5 @@ body {
 .flex-outer {
   max-width:800px;
   padding: 0 16px;
-  margin:0 auto;
+  margin: 0 auto;
 }
